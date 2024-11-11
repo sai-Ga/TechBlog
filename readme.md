@@ -33,18 +33,22 @@ Techblog is a dynamic web application built using JSP (JavaServer Pages), Bootst
    -  Run on a Java Servlet Container: Deploy the project on a Java servlet container like Apache Tomcat.
    -  Access the Application: Open your browser and go to `http://localhost:8080/Techblog`.
 
-3. **Technologies Used**
+## Technologies Used
 
-    - **Java and JSP: For backend logic and dynamic page rendering.**
-    - **Bootstrap 4: For responsive design and styling.**
-    - **CSS: Custom styling for application elements.**
-    - **Font Awesome: For icons.**
-    - **JavaScript: For interactivity and DOM manipulation.**
+   - **Java and JSP: For backend logic and dynamic page rendering.**
+   - **Bootstrap 4: For responsive design and styling.**
+   - **CSS: Custom styling for application elements.**
+   - **Font Awesome: For icons.**
+   - **JavaScript: For interactivity and DOM manipulation.**
 
-4. **File Overview**
+##  File Overview
 
    - **index.jsp: The main page of the application. Imports necessary packages and renders content dynamically using JSP, Bootstrap, and custom CSS.**
    - **ConnectionProvider.java: A helper class to facilitate connections to the database.**
    - **normal_navbar.jsp: A reusable navigation bar component included across various pages.**
    - **css/mystyle.css: Custom styles for enhancing the user interface.**
    - **web.xml: Configuration file for setting up the web application in the servlet container.**
+
+## License
+
+This project is licensed under the MIT License. You are free to use, and modify this under the conditions of the license. See the [LICENSE](LICENSE) file in this repository for more details.
